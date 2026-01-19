@@ -270,7 +270,7 @@ def generate_output(ignore_patterns: List[str], catch_all_patterns: List[str],
     output_lines.append("# IMPORTANT: After editing this file, you MUST run the sort script to maintain proper structure.")
     output_lines.append("#")
     output_lines.append("# To sort this file (run from repository root):")
-    output_lines.append("#   python3 <(curl -s https://raw.githubusercontent.com/surgeventures/app-shedul-umbrella/main/.github/scripts/sort_codeowners.py)")
+    output_lines.append("#   python3 <(curl -s https://raw.githubusercontent.com/surgeventures/codeowners/main/sort_codeowners.py)")
     output_lines.append("#")
     output_lines.append("# CI will automatically verify that this file matches the sorted version.")
     output_lines.append("# If you commit changes without running the script, CI will fail.")
